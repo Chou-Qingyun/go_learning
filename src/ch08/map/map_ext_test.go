@@ -31,4 +31,12 @@ func TestMapForSet(t *testing.T) {
 	} else {
 		t.Logf("%d is not existing", n)
 	}
+	t.Log(len(mySet))
+	delete(mySet, 1)
+	n = 1
+	if mySet[n] {
+		t.Logf("%d is existing", n)
+	} else {
+		t.Logf("%d is not existing", n)
+	}
 }

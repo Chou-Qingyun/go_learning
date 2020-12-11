@@ -30,7 +30,7 @@ func TestIfMultiSec(t *testing.T) {
 		t.Log("1==1")
 	}
 	/*一般的应用场景是在方法有返回值的情况
-	if v,err := someFunc(); err == nil {
+	if v,err := someFunc(); err == nil { //v是方法someFunc函数的返回值，err== nil 表示没有错误进入条件中
 		t.Log("1==1")
 	} else {
 		t.Log("报错了")
