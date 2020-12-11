@@ -4,8 +4,8 @@ import "testing"
 
 /*
 基本数据类型
-bool
-string
+bool		//布尔型
+string		// 字符串
 int int8 int16 int32 int64
 uint uint8 uint16 uint32 uint64 uintptr
 byte //alias for uint8
